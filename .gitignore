@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# 环境变量（含 API Key）
+.env
+
+# 向量数据库（运行时产物）
+db/*.pkl
+
+# OCR 缓存（运行时产物）
+output/.ocr_cache/
+
+# 生成的试卷和计划（运行时产物）
+output/*.md
+output/*.json
+
+# 课本和题库（版权文件，由用户自行准备）
+data/textbooks/*.pdf
+data/question_banks/*.pdf
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

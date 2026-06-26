@@ -1,0 +1,11 @@
+{
+  "subject": {
+    "name": "结构化学",
+    "code": "851",
+    "exam_type": "考研"
+  },
+  "exam_constraints": {
+    "no_calculator": true,
+    "additional_notes": ""
+  }
+}
